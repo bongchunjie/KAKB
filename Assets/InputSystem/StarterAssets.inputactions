@@ -47,9 +47,25 @@
                 },
                 {
                     "name": "Shoot",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "4823beba-aa4d-4bff-af8f-7ef4f45eaf9f",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "First",
+                    "type": "PassThrough",
+                    "id": "008ba45f-dc88-4384-908f-9db509338edb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Third",
+                    "type": "PassThrough",
+                    "id": "960b5538-fa3a-4a5c-908f-4e90865d5e95",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
                 }
@@ -272,6 +288,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee40212d-077f-4d64-997b-33b58dc18f84",
+                    "path": "<Keyboard>/f5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "First",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fda712fd-3f71-4cac-8f62-429882016821",
+                    "path": "<Keyboard>/f6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Third",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
