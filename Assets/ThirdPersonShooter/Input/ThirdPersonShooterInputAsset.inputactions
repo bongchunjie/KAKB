@@ -1,5 +1,5 @@
 {
-    "name": "StarterAssets",
+    "name": "ThirdPersonShooterInputAsset",
     "maps": [
         {
             "name": "Player",
@@ -31,24 +31,24 @@
                 },
                 {
                     "name": "Sprint",
-                    "type": "PassThrough",
+                    "type": "Button",
                     "id": "980e881e-182c-404c-8cbf-3d09fdb48fef",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "First",
-                    "type": "PassThrough",
-                    "id": "8ce20f7c-2f5a-431a-84e3-ea3f04aece00",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
                 },
                 {
-                    "name": "Third",
-                    "type": "PassThrough",
-                    "id": "357fff75-b43d-4696-90a7-8498c801bd3c",
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "45204d68-c695-4d23-bca9-fc6dee279535",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Aim",
+                    "type": "Button",
+                    "id": "bd31b62b-126d-4bd2-b9e8-8e896d5a3377",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -233,23 +233,45 @@
                 },
                 {
                     "name": "",
-                    "id": "da74e783-91fa-4e2e-87b7-ce834a6dd86a",
-                    "path": "<Keyboard>/f5",
+                    "id": "bfe498c7-e322-4b0e-bd77-7a0a657a8586",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardMouse",
-                    "action": "First",
+                    "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "0e0b4f10-3119-4cf9-b65b-c5ba6135cb14",
-                    "path": "<Keyboard>/f6",
+                    "id": "887fffa8-7187-4166-bc98-caa05b566f9d",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1428461c-91f5-4cff-b5db-14afcd086d32",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardMouse",
-                    "action": "Third",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe956ceb-f6d4-4390-be2f-cde0f5b7bb17",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
